@@ -1,0 +1,18 @@
+#yu.guan@tendcloud.com
+Host gitlab.tenddata.com
+	HostName gitlab.tenddata.com
+	User yu.guan
+	IdentityFile ~/.ssh/id_rsa
+	Port 22
+#ChocolateGY
+Host github.com
+	HostName github.com
+	User ChocolateGY
+	IdentityFile ~/.ssh/id_rsa_gy
+	
+#github_rsa
+Host github.com
+	HostName github.com
+	User Chocolate
+	IdentityFile ~/.ssh/github_rsa
+
